@@ -43,7 +43,7 @@ export default function Form() {
 
       {/* Login Button */}
       <div className="mt-8 flex flex-col gap-y-4">
-        <button className="py-3 rounded-xl bg-violet-500 text-white text-lg font-bold">Sign in</button>
+        <button className="active:scale-[.98] active:duration-75 hover:scale-[1.01] ease-in-out transition-all py-3 rounded-xl bg-violet-500 text-white text-lg font-bold">Sign in</button>
         <button>Sign in with Google</button>
       </div>
     </div>
